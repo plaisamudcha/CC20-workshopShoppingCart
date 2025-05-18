@@ -15,7 +15,7 @@ export default function CartItemSelect(props) {
       <div>
         <button
           onClick={() => {
-            decQuantityItem(id, title, price);
+            decQuantityItem(id);
           }}
           className="btn bg-accent text-amber-100 h-8 w-8"
         >
